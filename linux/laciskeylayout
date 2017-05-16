@@ -1,0 +1,71 @@
+// lacis Keyboard Layout for Linux
+
+default  partial alphanumeric_keys
+xkb_symbols "basic" {
+
+    name[Group1]="LacisKeys";
+
+    key.type[Group1] = "EIGHT_LEVEL";
+    key <TLDE> { [ dead_circumflex,          degree,        multiply,        NoSymbol,           U204A,            hyphen,             bar,        NoSymbol ] };
+    key <AE01> { [               8,      asciitilde, rightsinglequotemark,   NoSymbol,     onesuperior,        exclamdown,           U02B9,        NoSymbol ] };
+    key <AE02> { [               6,          dollar,     twosuperior,        NoSymbol,     twosuperior,          currency,           U02BA,        NoSymbol ] };
+    key <AE03> { [               4,          period,   threesuperior,        NoSymbol,   threesuperior,          sterling,           U02BF,        NoSymbol ] };
+    key <AE04> { [               2,      apostrophe,          emdash,        NoSymbol,      onequarter,            0x20AC,           U02BE,        NoSymbol ] };
+    key <AE05> { [               0,      numbersign,      exclamdown,        NoSymbol,         onehalf,           uparrow,           U02C1,        NoSymbol ] };
+    key <AE06> { [        asterisk,		       plus,    questiondown,        NoSymbol,   threequarters,         downarrow,           U02C0,        NoSymbol ] };
+    key <AE07> { [               1,        question,       braceleft,        NoSymbol,       oneeighth,         leftarrow,       braceleft,        NoSymbol ] };
+    key <AE08> { [               3,          exclam,     bracketleft,        NoSymbol,    threeeighths,        rightarrow,      braceright,        NoSymbol ] };
+    key <AE09> { [               5,         percent,    bracketright,        NoSymbol,     fiveeighths,         plusminus,     bracketleft,        NoSymbol ] };
+    key <AE10> { [               7,     bracketleft,      braceright,        NoSymbol,    seveneighths,         trademark,    bracketright,        NoSymbol ] };
+    key <AE11> { [          	 9,    bracketright,       backslash,        NoSymbol,       backslash,      questiondown,           U02BB,        NoSymbol ] };
+    key <AE12> { [      		at,        EuroSign,   dead_abovedot,        NoSymbol,    dead_cedilla,       dead_ogonek,         notsign,        NoSymbol ] };
+
+    key.type[Group1] = "EIGHT_LEVEL_ALPHABETIC";
+    key <AD01> { [               q,               Q,              at,        NoSymbol,           U0242,           U0241,           U030D,        NoSymbol ] };
+    key <AD02> { [               k,               K,      Adiaeresis,        NoSymbol,           U02B7,           U2126,   dead_abovedot,        NoSymbol ] };
+    key <AD03> { [               s,               S,          ssharp,        NoSymbol,              oe,              OE,      dead_breve,        NoSymbol ] };
+    key <AD04> { [               r,               R,  dead_diaeresis,        NoSymbol,       paragraph,      registered, dead_circumflex,        NoSymbol ] };
+    key <AD05> { [               z,               Z,     dead_macron,        NoSymbol,           UA78C,           UA78B,  dead_diaeresis,        NoSymbol ] };
+    key <AD06> { [               x,               X, dead_doubleacute,       NoSymbol,           U027C,             yen, dead_invertedbreve,     NoSymbol ] };
+    key <AD07> { [               t,               T,      dead_breve,        NoSymbol,           U0223,           U0222,      dead_caron,        NoSymbol ] };
+    key <AD08> { [               n,               N,      dead_tilde,        NoSymbol,        idotless,           U214D, dead_abovecomma,        NoSymbol ] };
+    key <AD09> { [       parenleft,       braceleft,  dead_abovering,        NoSymbol,          oslash,          Oslash,       dead_horn,        NoSymbol ] };
+    key <AD10> { [      parenright,      braceright,       dead_hook,        NoSymbol,           thorn,           THORN,       dead_hook,        NoSymbol ] };
+    key <AD11> { [           minus,      underscore,       dead_horn,        NoSymbol,           U017F,  dead_abovering,      dead_grave,        NoSymbol ] };
+    key.type[Group1] = "EIGHT_LEVEL";
+    key <AD12> { [         greater,       backslash,      asciitilde,        NoSymbol,      dead_tilde,     dead_macron,              at,        NoSymbol ] };
+
+    key.type[Group1] = "ONE_LEVEL";
+    key <CAPS>  { [ Caps_Lock	]	};
+    key.type[Group1] = "EIGHT_LEVEL_ALPHABETIC";
+    key <AC01> { [               c,               C,   lessthanequal,        NoSymbol,              ae,              AE,           U0329,        NoSymbol ] };
+    key <AC02> { [               a,               A, 	  adiaeresis,       NoSymbol,          ssharp,         section,   dead_belowdot,        NoSymbol ] };
+    key <AC03> { [               e,               E,           U2300,        NoSymbol,             eth,             ETH, dead_belowbreve,        NoSymbol ] };
+    key <AC04> { [               i,               I,         minutes,        NoSymbol,           U0294,     ordfeminine, dead_belowcircumflex,   NoSymbol ] };
+    key <AC05> { [               y,               Y,         seconds,        NoSymbol,             eng,             ENG, dead_belowmacron,       NoSymbol ] };
+    key <AC06> { [               j,               J,           U1E9E,        NoSymbol,           U0272,           U019D,           U0332,        NoSymbol ] };
+    key <AC07> { [               o,               O,      odiaeresis,        NoSymbol,           U0133,           U0132,  dead_belowring,        NoSymbol ] };
+    key <AC08> { [               u,               U,      udiaeresis,        NoSymbol,             kra, dead_belowcomma,     dead_stroke,        NoSymbol ] };
+    key <AC09> { [               l,               L,     dead_ogonek,        NoSymbol,         lstroke,         Lstroke,           U0338,        NoSymbol ] };
+    key <AC10> { [       semicolon,           equal,   dead_belowdot,        NoSymbol,      dead_acute, dead_doubleacute,         degree,        NoSymbol ] };
+    key <AC11> { [          period,           colon,     dead_stroke,        NoSymbol,           U019B,           U1E9E,         minutes,        NoSymbol ] };
+    key.type[Group1] = "EIGHT_LEVEL";
+    key <BKSL> { [            less,           slash,      registered,        NoSymbol,           schwa,           SCHWA,         seconds,        NoSymbol ] };
+
+    key <LSGT> { [               v,               V,             bar,        NoSymbol,           U0149,       brokenbar,           U266A,        NoSymbol ] };
+    key.type[Group1] = "EIGHT_LEVEL_ALPHABETIC";
+    key <AB01> { [               w,               W,           U203A,        NoSymbol,           U0292,           U01B7,   guillemotleft,        NoSymbol ] };
+    key <AB02> { [               d,               D,  guillemotright,        NoSymbol, doublelowquotemark, singlelowquotemark, guillemotright,   NoSymbol ] };
+    key <AB03> { [               g,               G,       copyright,        NoSymbol,            cent,       copyright,  Greek_horizbar,        NoSymbol ] };
+    key <AB04> { [               m,               M,   guillemotleft,        NoSymbol, leftdoublequotemark, leftsinglequotemark,   U2039,        NoSymbol ] };
+    key <AB05> { [        quotedbl,       ampersand,           U2039,        NoSymbol, rightdoublequotemark, rightsinglequotemark, U203A,        NoSymbol ] };
+    key <AB06> { [               h,               H,          endash,        NoSymbol,           U019E,           U0220,          endash,        NoSymbol ] };
+    key <AB07> { [               b,               B,        Greek_mu,        NoSymbol,              mu,       masculine,          emdash,        NoSymbol ] };
+    key.type[Group1] = "EIGHT_LEVEL";
+    key <AB08> { [               p,               P,           U02BB,        NoSymbol,        ellipsis,        multiply,          dollar,        NoSymbol ] };
+    key <AB09> { [               f,               F,           U200C,        NoSymbol,  periodcentered,        division,      numbersign,        NoSymbol ] };
+    key <AB10> { [           comma,             bar,          hyphen,        NoSymbol,           U0140,           U013F,           U2011,        NoSymbol ] };
+
+    key <SPCE> { [           space,           space,    nobreakspace,        NoSymbol,           U202F,           U200C,    nobreakspace,        NoSymbol ] };
+
+};
