@@ -1,8 +1,8 @@
 <?XML version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard PUBLIC "" "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 2.2.8 on 2015-10-05 at 19:28 (MESZ)-->
-<!--Last edited by Ukelele version 2.2.8 on 2017-09-20 at 21:33 (MESZ)-->
-<keyboard group="126" id="-8388" name="LacisKeyboard 2.8" maxout="4">
+<!--Last edited by Ukelele version 2.2.8 on 2017-10-17 at 21:53 (GMT+2)-->
+<keyboard group="126" id="-30624" name="LacisKeyboard 2.9" maxout="4">
     <layouts>
         <layout first="0" last="17" modifiers="Modifiers" mapSet="ANSI"/>
         <layout first="18" last="18" modifiers="Modifiers" mapSet="JIS"/>
@@ -131,7 +131,7 @@
             <key code="7" action="D"/>
             <key code="8" action="G"/>
             <key code="9" action="M"/>
-            <key code="10" output="°"/>
+            <key code="10" action="°"/>
             <key code="11" action=";"/>
             <key code="12" action="Q"/>
             <key code="13" action="K"/>
@@ -139,12 +139,12 @@
             <key code="15" action="R"/>
             <key code="16" action="X"/>
             <key code="17" action="Z"/>
-            <key code="18" output="€"/>
-            <key code="19" output="$"/>
-            <key code="20" output="~"/>
-            <key code="21" output="!"/>
-            <key code="22" output="|"/>
-            <key code="23" output="?"/>
+            <key code="18" action="€"/>
+            <key code="19" action="$"/>
+            <key code="20" action="~"/>
+            <key code="21" action="!"/>
+            <key code="22" action="|"/>
+            <key code="23" action="…"/>
             <key code="24" output="@"/>
             <key code="25" output="%"/>
             <key code="26" output="&#x0026;"/>
@@ -229,17 +229,17 @@
             <key code="15" action="☔️"/>
             <key code="16" action="&#x1F606;"/>
             <key code="17" action="&#x1F634;"/>
-            <key code="18" output="&#x1F428;"/>
+            <key code="18" output="&#x1F61A;"/>
             <key code="19" output="&#x1F60F;"/>
-            <key code="20" output="&#x1F636;"/>
-            <key code="21" output="&#x1F625;"/>
-            <key code="22" output="&#x1F615;"/>
+            <key code="20" output="̇"/>
+            <key code="21" output="̨"/>
+            <key code="22" output="ł"/>
             <key code="23" output="&#x1F62E;"/>
             <key code="24" output="&#x1F643;"/>
-            <key code="25" output="`"/>
-            <key code="26" output="´"/>
+            <key code="25" output="ˋ"/>
+            <key code="26" output="ˊ"/>
             <key code="27" output="&#x1F36A;"/>
-            <key code="28" output="^"/>
+            <key code="28" output="ˆ"/>
             <key code="29" output="☀️"/>
             <key code="30" output="&#x1F642;"/>
             <key code="31" action="&#x1F60E;"/>
@@ -255,7 +255,7 @@
             <key code="41" action="&#x1F525;"/>
             <key code="42" output="&#x1F622;"/>
             <key code="43" output="&#x1F574;"/>
-            <key code="44" output="&#x1F635;"/>
+            <key code="44" action="&#x1F635;"/>
             <key code="45" action="&#x1F499;"/>
             <key code="46" action="&#x1F630;"/>
             <key code="47" output="&#x1F611;"/>
@@ -319,16 +319,16 @@
             <key code="15" action="&#x1F308;"/>
             <key code="16" action="&#x1F602;"/>
             <key code="17" action="&#x1F4D8;"/>
-            <key code="18" output="&#x1F389;"/>
+            <key code="18" output="&#x1F440;"/>
             <key code="19" output="&#x1F44C;&#x1F3FC;"/>
-            <key code="20" output="&#x1F626;"/>
-            <key code="21" output="&#x1F613;"/>
-            <key code="22" output="&#x1F915;"/>
+            <key code="20" output="&#x1F644;"/>
+            <key code="21" output="&#x1F924;"/>
+            <key code="22" output="Ł"/>
             <key code="23" output="&#x1F607;"/>
             <key code="24" output="&#x1F648;"/>
             <key code="25" output="&#x1F30E;"/>
             <key code="26" output="&#x1F30F;"/>
-            <key code="27" output="&#x1F958;"/>
+            <key code="27" output="&#x1F428;"/>
             <key code="28" output="&#x1F30D;"/>
             <key code="29" output="&#x1F333;"/>
             <key code="30" output="&#x1F603;"/>
@@ -409,6 +409,14 @@
         <action id=" ">
             <when state="none" output=" "/>
             <when state="Math" output="␣"/>
+        </action>
+        <action id="!">
+            <when state="none" output="!"/>
+            <when state="Math" output="⊬"/>
+        </action>
+        <action id="$">
+            <when state="none" output="$"/>
+            <when state="Math" output="⊤"/>
         </action>
         <action id="&#x000D;">
             <when state="none" output="&#x000D;"/>
@@ -590,12 +598,16 @@
             <when state="none" output="&#x1F634;"/>
             <when state="Math" output="ζ"/>
         </action>
+        <action id="&#x1F635;">
+            <when state="none" output="&#x1F635;"/>
+            <when state="Math" output="⃗"/>
+        </action>
         <action id="&#x1F637;">
             <when state="none" output="&#x1F637;"/>
             <when state="Math" output="Κ"/>
         </action>
         <action id="&#x1F644;">
-            <when state="none" output="&#x1F644;"/>
+            <when state="none" output="&#x1F636;"/>
             <when state="Math" output="Τ"/>
         </action>
         <action id="&#x1F914;">
@@ -682,7 +694,7 @@
             <when state="Math" output="↭"/>
         </action>
         <action id="*">
-            <when state="none" output="*"/>
+            <when state="none" output="?"/>
             <when state="Math" output="⊈"/>
         </action>
         <action id="+">
@@ -1032,7 +1044,7 @@
             <when state="none" output="^"/>
         </action>
         <action id="^ 3">
-            <when state="none" output="^"/>
+            <when state="none" output="*"/>
             <when state="Math" output="⌫"/>
         </action>
         <action id="_">
@@ -1411,9 +1423,21 @@
             <when state="none" output="{"/>
             <when state="Math" output="≽"/>
         </action>
+        <action id="|">
+            <when state="none" output="|"/>
+            <when state="Math" output="⊭"/>
+        </action>
         <action id="}">
             <when state="none" output="}"/>
             <when state="Math" output="≼"/>
+        </action>
+        <action id="~">
+            <when state="none" output="~"/>
+            <when state="Math" output="⊢"/>
+        </action>
+        <action id="°">
+            <when state="none" output="°"/>
+            <when state="Math" output="⊣"/>
         </action>
         <action id="Ä">
             <when state="none" output="Ä"/>
@@ -1442,6 +1466,14 @@
         <action id="ü">
             <when state="none" output="ü"/>
             <when state="Math" output="ψ"/>
+        </action>
+        <action id="…">
+            <when state="none" output="…"/>
+            <when state="Math" output="⊨"/>
+        </action>
+        <action id="€">
+            <when state="none" output="€"/>
+            <when state="Math" output="⊥"/>
         </action>
         <action id="☁️">
             <when state="none" output="☁️"/>
