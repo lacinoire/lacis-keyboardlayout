@@ -1,8 +1,8 @@
 <?XML version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard PUBLIC "" "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 2.2.8 on 2015-10-05 at 19:28 (MESZ)-->
-<!--Last edited by Ukelele version 2.2.8 on 2017-09-20 at 21:33 (MESZ)-->
-<keyboard group="126" id="-8388" name="LacisKeyboard 2.8" maxout="4">
+<!--Last edited by Ukelele version 2.2.8 on 2017-11-27 at 13:48 (GMT+1)-->
+<keyboard group="126" id="-27293" name="LacisKeyboard 2.10" maxout="7">
     <layouts>
         <layout first="0" last="17" modifiers="Modifiers" mapSet="ANSI"/>
         <layout first="18" last="18" modifiers="Modifiers" mapSet="JIS"/>
@@ -80,7 +80,7 @@
             <key code="46" action="b 3"/>
             <key code="47" action="- 3"/>
             <key code="48" output="&#x0009;"/>
-            <key code="49" output=" "/>
+            <key code="49" action="  1"/>
             <key code="50" action="/ 3"/>
             <key code="51" output="&#x0008;"/>
             <key code="53" output="&#x001B;"/>
@@ -131,7 +131,7 @@
             <key code="7" action="D"/>
             <key code="8" action="G"/>
             <key code="9" action="M"/>
-            <key code="10" output="°"/>
+            <key code="10" action="°"/>
             <key code="11" action=";"/>
             <key code="12" action="Q"/>
             <key code="13" action="K"/>
@@ -139,12 +139,12 @@
             <key code="15" action="R"/>
             <key code="16" action="X"/>
             <key code="17" action="Z"/>
-            <key code="18" output="€"/>
-            <key code="19" output="$"/>
-            <key code="20" output="~"/>
-            <key code="21" output="!"/>
-            <key code="22" output="|"/>
-            <key code="23" output="?"/>
+            <key code="18" action="€"/>
+            <key code="19" action="$"/>
+            <key code="20" action="~"/>
+            <key code="21" action="!"/>
+            <key code="22" action="|"/>
+            <key code="23" action="?"/>
             <key code="24" output="@"/>
             <key code="25" output="%"/>
             <key code="26" output="&#x0026;"/>
@@ -211,56 +211,56 @@
             <key code="126" output="&#x001E;"/>
         </keyMap>
         <keyMap index="2">
-            <key code="0" action="&#x1F614;"/>
-            <key code="1" action="ä"/>
-            <key code="2" action="&#x1F605;"/>
-            <key code="3" action="&#x1F60D;"/>
-            <key code="4" action="&#x1F623;"/>
-            <key code="5" action="&#x1F44D;&#x1F3FC;"/>
-            <key code="6" output="&#x1F496;"/>
-            <key code="7" action="&#x1F433;"/>
-            <key code="8" action="&#x1F601;"/>
-            <key code="9" action="&#x1F60B; 1"/>
+            <key code="0" action="&#x1F614; 1"/>
+            <key code="1" action="ä 1"/>
+            <key code="2" action="&#x1F605; 1"/>
+            <key code="3" action="&#x1F60D; 1"/>
+            <key code="4" action="&#x1F623; 1"/>
+            <key code="5" action="&#x1F44D;&#x1F3FC; 1"/>
+            <key code="6" output="&#x1F36A;"/>
+            <key code="7" action="&#x1F433; 1"/>
+            <key code="8" action="&#x1F601; 1"/>
+            <key code="9" action="&#x1F60B; 2"/>
             <key code="10" output="&#x1F60A;"/>
             <key code="11" output="&#x1F609;"/>
-            <key code="12" action="&#x1F914;"/>
-            <key code="13" action="&#x1F618;"/>
-            <key code="14" action="ß"/>
-            <key code="15" action="☔️"/>
-            <key code="16" action="&#x1F606;"/>
-            <key code="17" action="&#x1F634;"/>
-            <key code="18" output="&#x1F428;"/>
+            <key code="12" action="&#x1F914; 1"/>
+            <key code="13" action="&#x1F618; 1"/>
+            <key code="14" action="ß 1"/>
+            <key code="15" action="☔️ 1"/>
+            <key code="16" action="&#x1F606; 1"/>
+            <key code="17" action="&#x1F634; 1"/>
+            <key code="18" output="&#x1F636;"/>
             <key code="19" output="&#x1F60F;"/>
-            <key code="20" output="&#x1F636;"/>
-            <key code="21" output="&#x1F625;"/>
-            <key code="22" output="&#x1F615;"/>
+            <key code="20" output="&#x1F92A;"/>
+            <key code="21" output="&#x1F92F;"/>
+            <key code="22" output="☀️"/>
             <key code="23" output="&#x1F62E;"/>
             <key code="24" output="&#x1F643;"/>
-            <key code="25" output="`"/>
-            <key code="26" output="´"/>
-            <key code="27" output="&#x1F36A;"/>
-            <key code="28" output="^"/>
-            <key code="29" output="☀️"/>
+            <key code="25" action="´ 1"/>
+            <key code="26" output="&#x1F469;&#x1F3FB;‍&#x1F4BB;"/>
+            <key code="27" action="grave 1"/>
+            <key code="28" action="˛ 1"/>
+            <key code="29" action="^ 5"/>
             <key code="30" output="&#x1F642;"/>
-            <key code="31" action="&#x1F60E;"/>
-            <key code="32" action="&#x1F62D;"/>
+            <key code="31" action="&#x1F60E; 1"/>
+            <key code="32" action="&#x1F62D; 1"/>
             <key code="33" output="&#x1F641;"/>
-            <key code="34" action="&#x1F61D;"/>
-            <key code="35" action="✌&#x1F3FC;"/>
+            <key code="34" action="&#x1F61D; 1"/>
+            <key code="35" action="✌&#x1F3FC; 1"/>
             <key code="36" output="&#x000D;"/>
-            <key code="37" action="&#x1F60B;"/>
-            <key code="38" action="ö"/>
-            <key code="39" output="&#x1F917;"/>
-            <key code="40" action="ü"/>
-            <key code="41" action="&#x1F525;"/>
-            <key code="42" output="&#x1F622;"/>
-            <key code="43" output="&#x1F574;"/>
+            <key code="37" action="&#x1F60B; 3"/>
+            <key code="38" action="ö 1"/>
+            <key code="39" action="&#x1F917; 1"/>
+            <key code="40" action="ü 1"/>
+            <key code="41" action="&#x1F525; 1"/>
+            <key code="42" output="&#x1F625;"/>
+            <key code="43" output="&#x1F379;"/>
             <key code="44" output="&#x1F635;"/>
-            <key code="45" action="&#x1F499;"/>
-            <key code="46" action="&#x1F630;"/>
+            <key code="45" action="&#x1F499; 1"/>
+            <key code="46" action="&#x1F630; 1"/>
             <key code="47" output="&#x1F611;"/>
             <key code="48" output="&#x0009;"/>
-            <key code="49" output=" "/>
+            <key code="49" action="  2"/>
             <key code="50" output="&#x1F495;"/>
             <key code="51" output="&#x0008;"/>
             <key code="53" output="&#x001B;"/>
@@ -307,28 +307,28 @@
             <key code="3" action="&#x1F339;"/>
             <key code="4" action="&#x1F62B;"/>
             <key code="5" action="&#x1F4AA;&#x1F3FC;"/>
-            <key code="6" output="&#x1F498;"/>
+            <key code="6" output="&#x1F3F3;️‍&#x1F308;"/>
             <key code="7" action="&#x1F608;"/>
             <key code="8" action="☺️"/>
             <key code="9" action="&#x1F61B;"/>
             <key code="10" output="&#x1F604;"/>
-            <key code="11" output="&#x1F374;"/>
-            <key code="12" output="☔️"/>
+            <key code="11" output="&#x1F928;"/>
+            <key code="12" output="&#x1F9D0;"/>
             <key code="13" action="&#x1F637;"/>
             <key code="14" action="&#x1F631;"/>
             <key code="15" action="&#x1F308;"/>
             <key code="16" action="&#x1F602;"/>
             <key code="17" action="&#x1F4D8;"/>
-            <key code="18" output="&#x1F389;"/>
+            <key code="18" output="&#x1F60C;"/>
             <key code="19" output="&#x1F44C;&#x1F3FC;"/>
-            <key code="20" output="&#x1F626;"/>
-            <key code="21" output="&#x1F613;"/>
-            <key code="22" output="&#x1F915;"/>
+            <key code="20" output="&#x1F621;"/>
+            <key code="21" output="❌"/>
+            <key code="22" output="❄️"/>
             <key code="23" output="&#x1F607;"/>
             <key code="24" output="&#x1F648;"/>
             <key code="25" output="&#x1F30E;"/>
             <key code="26" output="&#x1F30F;"/>
-            <key code="27" output="&#x1F958;"/>
+            <key code="27" output="&#x1F428;"/>
             <key code="28" output="&#x1F30D;"/>
             <key code="29" output="&#x1F333;"/>
             <key code="30" output="&#x1F603;"/>
@@ -340,17 +340,17 @@
             <key code="36" output="&#x000D;"/>
             <key code="37" action="&#x1F981;"/>
             <key code="38" action="Ö"/>
-            <key code="39" output="&#x1F44B;&#x1F3FC;"/>
+            <key code="39" action="&#x1F44B;&#x1F3FC;"/>
             <key code="40" action="Ü"/>
             <key code="41" action="✊&#x1F3FC;"/>
-            <key code="42" output="&#x1F328;"/>
+            <key code="42" output="&#x1F630;"/>
             <key code="43" output="☕️"/>
             <key code="44" output="&#x1F632;"/>
             <key code="45" action="❤️"/>
             <key code="46" action="&#x1F628;"/>
             <key code="47" output="&#x1F610;"/>
             <key code="48" output="&#x0009;"/>
-            <key code="49" output=" "/>
+            <key code="49" action="  3"/>
             <key code="50" output="&#x1F49C;"/>
             <key code="51" output="&#x0008;"/>
             <key code="53" output="&#x001B;"/>
@@ -409,6 +409,39 @@
         <action id=" ">
             <when state="none" output=" "/>
             <when state="Math" output="␣"/>
+            <when state="acute" output="´"/>
+            <when state="circumflex" output="^"/>
+            <when state="grave" output="`"/>
+            <when state="ogonek/dot/stroke" output="˙"/>
+        </action>
+        <action id="  1">
+            <when state="none" output=" "/>
+            <when state="acute" output="´"/>
+            <when state="circumflex" output="^"/>
+            <when state="grave" output="`"/>
+            <when state="ogonek/dot/stroke" output="˛"/>
+        </action>
+        <action id="  2">
+            <when state="none" output=" "/>
+            <when state="acute" output="´"/>
+            <when state="circumflex" output="^"/>
+            <when state="grave" output="`"/>
+            <when state="ogonek/dot/stroke" output="˛"/>
+        </action>
+        <action id="  3">
+            <when state="none" output=" "/>
+            <when state="acute" output="´"/>
+            <when state="circumflex" output="^"/>
+            <when state="grave" output="`"/>
+            <when state="ogonek/dot/stroke" output="˙"/>
+        </action>
+        <action id="!">
+            <when state="none" output="°"/>
+            <when state="Math" output="⊬"/>
+        </action>
+        <action id="$">
+            <when state="none" output="€"/>
+            <when state="Math" output="⊤"/>
         </action>
         <action id="&#x000D;">
             <when state="none" output="&#x000D;"/>
@@ -465,30 +498,77 @@
         <action id="&#x1F4AA;&#x1F3FC;">
             <when state="none" output="&#x1F4AA;&#x1F3FC;"/>
             <when state="Math" output="Υ"/>
+            <when state="acute" output="Ý"/>
+            <when state="circumflex" output="Ŷ"/>
         </action>
         <action id="&#x1F4D8;">
             <when state="none" output="&#x1F4D8;"/>
             <when state="Math" output="Ζ"/>
+            <when state="acute" output="Ź"/>
+            <when state="ogonek/dot/stroke" output="Ż"/>
+        </action>
+        <action id="&#x1F44B;&#x1F3FC;">
+            <when state="none" output="&#x1F44B;&#x1F3FC;"/>
+            <when state="circumflex" output="Ŵ"/>
         </action>
         <action id="&#x1F44D;&#x1F3FC;">
             <when state="none" output="&#x1F44D;&#x1F3FC;"/>
             <when state="Math" output="υ"/>
+            <when state="acute" output="ý"/>
+            <when state="circumflex" output="ŷ"/>
+        </action>
+        <action id="&#x1F44D;&#x1F3FC; 1">
+            <when state="none" output="&#x1F44D;&#x1F3FC;"/>
+            <when state="Math" output="υ"/>
+            <when state="acute" output="ý"/>
+            <when state="circumflex" output="ŷ"/>
         </action>
         <action id="&#x1F60B;">
             <when state="none" output="&#x1F924;"/>
             <when state="Math" output="λ"/>
+            <when state="acute" output="ĺ"/>
+            <when state="ogonek/dot/stroke" output="ł"/>
         </action>
         <action id="&#x1F60B; 1">
             <when state="none" output="&#x1F60B;"/>
             <when state="Math" output="μ"/>
         </action>
+        <action id="&#x1F60B; 2">
+            <when state="none" output="&#x1F60B;"/>
+            <when state="Math" output="μ"/>
+        </action>
+        <action id="&#x1F60B; 3">
+            <when state="none" output="&#x1F924;"/>
+            <when state="Math" output="λ"/>
+            <when state="acute" output="ĺ"/>
+            <when state="ogonek/dot/stroke" output="ł"/>
+        </action>
         <action id="&#x1F60D;">
             <when state="none" output="&#x1F60D;"/>
             <when state="Math" output="ι"/>
+            <when state="acute" output="í"/>
+            <when state="circumflex" output="î"/>
+            <when state="ogonek/dot/stroke" output="į"/>
+        </action>
+        <action id="&#x1F60D; 1">
+            <when state="none" output="&#x1F60D;"/>
+            <when state="Math" output="ι"/>
+            <when state="acute" output="í"/>
+            <when state="circumflex" output="î"/>
+            <when state="grave" output="ì"/>
+            <when state="ogonek/dot/stroke" output="į"/>
         </action>
         <action id="&#x1F60E;">
             <when state="none" output="&#x1F60E;"/>
             <when state="Math" output="γ"/>
+            <when state="acute" output="ć"/>
+            <when state="circumflex" output="ĉ"/>
+        </action>
+        <action id="&#x1F60E; 1">
+            <when state="none" output="&#x1F64C;&#x1F3FC;"/>
+            <when state="Math" output="γ"/>
+            <when state="acute" output="ć"/>
+            <when state="circumflex" output="ĉ"/>
         </action>
         <action id="&#x1F61B;">
             <when state="none" output="&#x1F61B;"/>
@@ -502,45 +582,87 @@
             <when state="none" output="&#x1F61D;"/>
             <when state="Math" output="π"/>
         </action>
+        <action id="&#x1F61D; 1">
+            <when state="none" output="&#x1F61D;"/>
+            <when state="Math" output="π"/>
+        </action>
         <action id="&#x1F61E;">
             <when state="none" output="&#x1F61E;"/>
             <when state="Math" output="Ν"/>
+            <when state="acute" output="Ń"/>
+            <when state="grave" output="Ǹ"/>
         </action>
         <action id="&#x1F62A;">
             <when state="none" output="&#x1F62A;"/>
             <when state="Math" output="Ε"/>
+            <when state="acute" output="É"/>
+            <when state="circumflex" output="Ê"/>
+            <when state="grave" output="È"/>
+            <when state="ogonek/dot/stroke" output="Ę"/>
         </action>
         <action id="&#x1F62B;">
             <when state="none" output="&#x1F62B;"/>
             <when state="Math" output="Χ"/>
+            <when state="circumflex" output="Ĵ"/>
         </action>
         <action id="&#x1F62D;">
+            <when state="none" output="&#x1F62D;"/>
+            <when state="Math" output="θ"/>
+        </action>
+        <action id="&#x1F62D; 1">
             <when state="none" output="&#x1F62D;"/>
             <when state="Math" output="θ"/>
         </action>
         <action id="&#x1F308;">
             <when state="none" output="&#x1F308;"/>
             <when state="Math" output="Ρ"/>
+            <when state="acute" output="Ŕ"/>
         </action>
         <action id="&#x1F339;">
-            <when state="none" output="&#x1F339;"/>
+            <when state="none" output="&#x1F929;"/>
             <when state="Math" output="Ι"/>
+            <when state="acute" output="Í"/>
+            <when state="circumflex" output="Î"/>
+            <when state="grave" output="Ì"/>
+            <when state="ogonek/dot/stroke" output="Į"/>
         </action>
         <action id="&#x1F433;">
+            <when state="none" output="&#x1F433;"/>
+            <when state="Math" output="δ"/>
+        </action>
+        <action id="&#x1F433; 1">
             <when state="none" output="&#x1F433;"/>
             <when state="Math" output="δ"/>
         </action>
         <action id="&#x1F499;">
             <when state="none" output="&#x1F499;"/>
             <when state="Math" output="η"/>
+            <when state="circumflex" output="ĥ"/>
+        </action>
+        <action id="&#x1F499; 1">
+            <when state="none" output="&#x1F499;"/>
+            <when state="Math" output="η"/>
+            <when state="circumflex" output="ĥ"/>
         </action>
         <action id="&#x1F525;">
+            <when state="none" output="&#x1F525;"/>
+            <when state="Math" output="ω"/>
+        </action>
+        <action id="&#x1F525; 1">
             <when state="none" output="&#x1F525;"/>
             <when state="Math" output="ω"/>
         </action>
         <action id="&#x1F601;">
             <when state="none" output="&#x1F601;"/>
             <when state="Math" output="φ"/>
+            <when state="acute" output="ǵ"/>
+            <when state="circumflex" output="ĝ"/>
+        </action>
+        <action id="&#x1F601; 1">
+            <when state="none" output="&#x1F601;"/>
+            <when state="Math" output="φ"/>
+            <when state="acute" output="ǵ"/>
+            <when state="circumflex" output="ĝ"/>
         </action>
         <action id="&#x1F602;">
             <when state="none" output="&#x1F602;"/>
@@ -549,8 +671,23 @@
         <action id="&#x1F605;">
             <when state="none" output="&#x1F605;"/>
             <when state="Math" output="ε"/>
+            <when state="acute" output="é"/>
+            <when state="circumflex" output="ê"/>
+            <when state="ogonek/dot/stroke" output="ę"/>
+        </action>
+        <action id="&#x1F605; 1">
+            <when state="none" output="&#x1F605;"/>
+            <when state="Math" output="ε"/>
+            <when state="acute" output="é"/>
+            <when state="circumflex" output="ê"/>
+            <when state="grave" output="è"/>
+            <when state="ogonek/dot/stroke" output="ę"/>
         </action>
         <action id="&#x1F606;">
+            <when state="none" output="&#x1F606;"/>
+            <when state="Math" output="ξ"/>
+        </action>
+        <action id="&#x1F606; 1">
             <when state="none" output="&#x1F606;"/>
             <when state="Math" output="ξ"/>
         </action>
@@ -561,8 +698,19 @@
         <action id="&#x1F614;">
             <when state="none" output="&#x1F614;"/>
             <when state="Math" output="ν"/>
+            <when state="acute" output="ń"/>
+        </action>
+        <action id="&#x1F614; 1">
+            <when state="none" output="&#x1F614;"/>
+            <when state="Math" output="ν"/>
+            <when state="acute" output="ń"/>
+            <when state="grave" output="ǹ"/>
         </action>
         <action id="&#x1F618;">
+            <when state="none" output="&#x1F618;"/>
+            <when state="Math" output="κ"/>
+        </action>
+        <action id="&#x1F618; 1">
             <when state="none" output="&#x1F618;"/>
             <when state="Math" output="κ"/>
         </action>
@@ -573,25 +721,45 @@
         <action id="&#x1F623;">
             <when state="none" output="&#x1F623;"/>
             <when state="Math" output="χ"/>
+            <when state="circumflex" output="ĵ"/>
+        </action>
+        <action id="&#x1F623; 1">
+            <when state="none" output="&#x1F623;"/>
+            <when state="Math" output="χ"/>
+            <when state="circumflex" output="ĵ"/>
         </action>
         <action id="&#x1F628;">
-            <when state="none" output="&#x1F628;"/>
+            <when state="none" output="&#x1F92B;"/>
             <when state="Math" output="Β"/>
         </action>
         <action id="&#x1F630;">
-            <when state="none" output="&#x1F630;"/>
+            <when state="none" output="&#x1F628;"/>
+            <when state="Math" output="β"/>
+        </action>
+        <action id="&#x1F630; 1">
+            <when state="none" output="☝&#x1F3FC;"/>
             <when state="Math" output="β"/>
         </action>
         <action id="&#x1F631;">
             <when state="none" output="&#x1F631;"/>
             <when state="Math" output="Σ"/>
+            <when state="acute" output="Ś"/>
+            <when state="circumflex" output="Ŝ"/>
         </action>
         <action id="&#x1F634;">
             <when state="none" output="&#x1F634;"/>
             <when state="Math" output="ζ"/>
+            <when state="acute" output="ź"/>
+            <when state="ogonek/dot/stroke" output="ż"/>
+        </action>
+        <action id="&#x1F634; 1">
+            <when state="none" output="&#x1F634;"/>
+            <when state="Math" output="ζ"/>
+            <when state="acute" output="ź"/>
+            <when state="ogonek/dot/stroke" output="ż"/>
         </action>
         <action id="&#x1F637;">
-            <when state="none" output="&#x1F637;"/>
+            <when state="none" output="&#x1F61A;"/>
             <when state="Math" output="Κ"/>
         </action>
         <action id="&#x1F644;">
@@ -601,9 +769,22 @@
         <action id="&#x1F914;">
             <when state="none" output="&#x1F914;"/>
         </action>
+        <action id="&#x1F914; 1">
+            <when state="none" output="&#x1F914;"/>
+        </action>
+        <action id="&#x1F917;">
+            <when state="none" output="&#x1F917;"/>
+            <when state="circumflex" output="ŵ"/>
+        </action>
+        <action id="&#x1F917; 1">
+            <when state="none" output="&#x1F917;"/>
+            <when state="circumflex" output="ŵ"/>
+        </action>
         <action id="&#x1F981;">
             <when state="none" output="&#x1F981;"/>
             <when state="Math" output="Λ"/>
+            <when state="acute" output="Ĺ"/>
+            <when state="ogonek/dot/stroke" output="Ł"/>
         </action>
         <action id="&#x001F;">
             <when state="none" output="&#x001F;"/>
@@ -901,6 +1082,10 @@
             <when state="none" output="="/>
             <when state="Math" output="⇥"/>
         </action>
+        <action id="?">
+            <when state="none" output="~"/>
+            <when state="Math" output="⊨"/>
+        </action>
         <action id="@">
             <when state="none" next="Math"/>
         </action>
@@ -917,6 +1102,10 @@
         <action id="A">
             <when state="none" output="A"/>
             <when state="Math" output="∀"/>
+            <when state="acute" output="Á"/>
+            <when state="circumflex" output="Â"/>
+            <when state="grave" output="À"/>
+            <when state="ogonek/dot/stroke" output="Ą"/>
         </action>
         <action id="B">
             <when state="none" output="B"/>
@@ -925,6 +1114,8 @@
         <action id="C">
             <when state="none" output="C"/>
             <when state="Math" output="≻"/>
+            <when state="acute" output="Ć"/>
+            <when state="circumflex" output="Ĉ"/>
         </action>
         <action id="D">
             <when state="none" output="D"/>
@@ -933,6 +1124,10 @@
         <action id="E">
             <when state="none" output="E"/>
             <when state="Math" output="∃"/>
+            <when state="acute" output="É"/>
+            <when state="circumflex" output="Ê"/>
+            <when state="grave" output="È"/>
+            <when state="ogonek/dot/stroke" output="Ę"/>
         </action>
         <action id="F">
             <when state="none" output="F"/>
@@ -941,18 +1136,26 @@
         <action id="G">
             <when state="none" output="G"/>
             <when state="Math" output="∧"/>
+            <when state="acute" output="Ǵ"/>
+            <when state="circumflex" output="Ĝ"/>
         </action>
         <action id="H">
             <when state="none" output="H"/>
             <when state="Math" output="∫"/>
+            <when state="circumflex" output="Ĥ"/>
         </action>
         <action id="I">
             <when state="none" output="I"/>
             <when state="Math" output="∈"/>
+            <when state="acute" output="Í"/>
+            <when state="circumflex" output="Î"/>
+            <when state="grave" output="Ì"/>
+            <when state="ogonek/dot/stroke" output="Į"/>
         </action>
         <action id="J">
             <when state="none" output="J"/>
             <when state="Math" output="√"/>
+            <when state="circumflex" output="Ĵ"/>
         </action>
         <action id="K">
             <when state="none" output="K"/>
@@ -961,6 +1164,8 @@
         <action id="L">
             <when state="none" output="L"/>
             <when state="Math" output="⊂"/>
+            <when state="acute" output="Ĺ"/>
+            <when state="ogonek/dot/stroke" output="Ł"/>
         </action>
         <action id="M">
             <when state="none" output="M"/>
@@ -969,10 +1174,16 @@
         <action id="N">
             <when state="none" output="N"/>
             <when state="Math" output="∇"/>
+            <when state="acute" output="Ń"/>
+            <when state="grave" output="Ǹ"/>
         </action>
         <action id="O">
             <when state="none" output="O"/>
             <when state="Math" output="⊃"/>
+            <when state="acute" output="Ó"/>
+            <when state="circumflex" output="Ô"/>
+            <when state="grave" output="Ò"/>
+            <when state="ogonek/dot/stroke" output="Ǫ"/>
         </action>
         <action id="P">
             <when state="none" output="P"/>
@@ -985,10 +1196,13 @@
         <action id="R">
             <when state="none" output="R"/>
             <when state="Math" output="∏"/>
+            <when state="acute" output="Ŕ"/>
         </action>
         <action id="S">
             <when state="none" output="S"/>
             <when state="Math" output="∄"/>
+            <when state="acute" output="Ś"/>
+            <when state="circumflex" output="Ŝ"/>
         </action>
         <action id="T">
             <when state="none" output="T"/>
@@ -997,6 +1211,10 @@
         <action id="U">
             <when state="none" output="U"/>
             <when state="Math" output="∩"/>
+            <when state="acute" output="Ú"/>
+            <when state="circumflex" output="Û"/>
+            <when state="grave" output="Ù"/>
+            <when state="ogonek/dot/stroke" output="Ų"/>
         </action>
         <action id="V">
             <when state="none" output="V"/>
@@ -1005,6 +1223,7 @@
         <action id="W">
             <when state="none" output="W"/>
             <when state="Math" output="⊆"/>
+            <when state="circumflex" output="Ŵ"/>
         </action>
         <action id="X">
             <when state="none" output="X"/>
@@ -1013,10 +1232,14 @@
         <action id="Y">
             <when state="none" output="Y"/>
             <when state="Math" output="∉"/>
+            <when state="acute" output="Ý"/>
+            <when state="circumflex" output="Ŷ"/>
         </action>
         <action id="Z">
             <when state="none" output="Z"/>
             <when state="Math" output="∑"/>
+            <when state="acute" output="Ź"/>
+            <when state="ogonek/dot/stroke" output="Ż"/>
         </action>
         <action id="\">
             <when state="none" output="\"/>
@@ -1032,8 +1255,14 @@
             <when state="none" output="^"/>
         </action>
         <action id="^ 3">
-            <when state="none" output="^"/>
+            <when state="none" output="?"/>
             <when state="Math" output="⌫"/>
+        </action>
+        <action id="^ 4">
+            <when state="none" next="circumflex"/>
+        </action>
+        <action id="^ 5">
+            <when state="none" next="circumflex"/>
         </action>
         <action id="_">
             <when state="none" output="_"/>
@@ -1054,6 +1283,10 @@
         <action id="a 3">
             <when state="none" output="a"/>
             <when state="Math" output="↓"/>
+            <when state="acute" output="á"/>
+            <when state="circumflex" output="â"/>
+            <when state="grave" output="à"/>
+            <when state="ogonek/dot/stroke" output="ą"/>
         </action>
         <action id="b">
             <when state="none" output="b"/>
@@ -1086,6 +1319,8 @@
         <action id="c 3">
             <when state="none" output="c"/>
             <when state="Math" output="✔︎"/>
+            <when state="acute" output="ć"/>
+            <when state="circumflex" output="ĉ"/>
         </action>
         <action id="d">
             <when state="none" output="d"/>
@@ -1118,6 +1353,10 @@
         <action id="e 3">
             <when state="none" output="e"/>
             <when state="Math" output="→"/>
+            <when state="acute" output="é"/>
+            <when state="circumflex" output="ê"/>
+            <when state="grave" output="è"/>
+            <when state="ogonek/dot/stroke" output="ę"/>
         </action>
         <action id="f">
             <when state="none" output="f"/>
@@ -1150,6 +1389,14 @@
         <action id="g 3">
             <when state="none" output="g"/>
             <when state="Math" output="⇔"/>
+            <when state="acute" output="ǵ"/>
+            <when state="circumflex" output="ĝ"/>
+        </action>
+        <action id="grave">
+            <when state="none" next="grave"/>
+        </action>
+        <action id="grave 1">
+            <when state="none" next="grave"/>
         </action>
         <action id="h">
             <when state="none" output="h"/>
@@ -1166,6 +1413,7 @@
         <action id="h 3">
             <when state="none" output="h"/>
             <when state="Math" output="◻︎"/>
+            <when state="circumflex" output="ĥ"/>
         </action>
         <action id="i">
             <when state="none" output="i"/>
@@ -1182,6 +1430,10 @@
         <action id="i 3">
             <when state="none" output="i"/>
             <when state="Math" output="⇐"/>
+            <when state="acute" output="í"/>
+            <when state="circumflex" output="î"/>
+            <when state="grave" output="ì"/>
+            <when state="ogonek/dot/stroke" output="į"/>
         </action>
         <action id="j">
             <when state="none" output="j"/>
@@ -1198,6 +1450,7 @@
         <action id="j 3">
             <when state="none" output="j"/>
             <when state="Math" output="⇒"/>
+            <when state="circumflex" output="ĵ"/>
         </action>
         <action id="k">
             <when state="none" output="k"/>
@@ -1218,6 +1471,8 @@
         <action id="l">
             <when state="none" output="l"/>
             <when state="Math" output="☞"/>
+            <when state="acute" output="ĺ"/>
+            <when state="ogonek/dot/stroke" output="ł"/>
         </action>
         <action id="m">
             <when state="none" output="m"/>
@@ -1238,6 +1493,8 @@
         <action id="n 3">
             <when state="none" output="n"/>
             <when state="Math" output="←"/>
+            <when state="acute" output="ń"/>
+            <when state="grave" output="ǹ"/>
         </action>
         <action id="o">
             <when state="none" output="o"/>
@@ -1254,6 +1511,10 @@
         <action id="o 3">
             <when state="none" output="o"/>
             <when state="Math" output="☜"/>
+            <when state="acute" output="ó"/>
+            <when state="circumflex" output="ô"/>
+            <when state="grave" output="ò"/>
+            <when state="ogonek/dot/stroke" output="ǫ"/>
         </action>
         <action id="p">
             <when state="none" output="p"/>
@@ -1302,6 +1563,7 @@
         <action id="r 3">
             <when state="none" output="r"/>
             <when state="Math" output="⇖"/>
+            <when state="acute" output="ŕ"/>
         </action>
         <action id="s">
             <when state="none" output="s"/>
@@ -1318,6 +1580,8 @@
         <action id="s 3">
             <when state="none" output="s"/>
             <when state="Math" output="↗︎"/>
+            <when state="acute" output="ś"/>
+            <when state="circumflex" output="ŝ"/>
         </action>
         <action id="t">
             <when state="none" output="t"/>
@@ -1350,6 +1614,10 @@
         <action id="u 3">
             <when state="none" output="u"/>
             <when state="Math" output="☟"/>
+            <when state="acute" output="ú"/>
+            <when state="circumflex" output="û"/>
+            <when state="grave" output="ù"/>
+            <when state="ogonek/dot/stroke" output="ų"/>
         </action>
         <action id="v">
             <when state="none" output="v"/>
@@ -1370,6 +1638,7 @@
         <action id="w">
             <when state="none" output="w"/>
             <when state="Math" output="⇣"/>
+            <when state="circumflex" output="ŵ"/>
         </action>
         <action id="x">
             <when state="none" output="x"/>
@@ -1390,6 +1659,8 @@
         <action id="y">
             <when state="none" output="y"/>
             <when state="Math" output="⇓"/>
+            <when state="acute" output="ý"/>
+            <when state="circumflex" output="ŷ"/>
         </action>
         <action id="z">
             <when state="none" output="z"/>
@@ -1406,69 +1677,171 @@
         <action id="z 3">
             <when state="none" output="z"/>
             <when state="Math" output="⇑"/>
+            <when state="acute" output="ź"/>
+            <when state="ogonek/dot/stroke" output="ż"/>
         </action>
         <action id="{">
             <when state="none" output="{"/>
             <when state="Math" output="≽"/>
         </action>
+        <action id="|">
+            <when state="none" output="|"/>
+            <when state="Math" output="⊭"/>
+        </action>
         <action id="}">
             <when state="none" output="}"/>
             <when state="Math" output="≼"/>
         </action>
+        <action id="~">
+            <when state="none" output="$"/>
+            <when state="Math" output="⊢"/>
+        </action>
+        <action id="°">
+            <when state="none" output="^"/>
+            <when state="Math" output="⊣"/>
+        </action>
+        <action id="´">
+            <when state="none" next="acute"/>
+        </action>
+        <action id="´ 1">
+            <when state="none" next="acute"/>
+        </action>
         <action id="Ä">
             <when state="none" output="Ä"/>
             <when state="Math" output="Α"/>
+            <when state="acute" output="Á"/>
+            <when state="circumflex" output="Â"/>
+            <when state="grave" output="À"/>
+            <when state="ogonek/dot/stroke" output="Ą"/>
         </action>
         <action id="Ö">
             <when state="none" output="Ö"/>
             <when state="Math" output="Ο"/>
+            <when state="acute" output="Ó"/>
+            <when state="circumflex" output="Ô"/>
+            <when state="grave" output="Ò"/>
+            <when state="ogonek/dot/stroke" output="Ǫ"/>
         </action>
         <action id="Ü">
             <when state="none" output="Ü"/>
             <when state="Math" output="Ψ"/>
+            <when state="acute" output="Ú"/>
+            <when state="circumflex" output="Û"/>
+            <when state="grave" output="Ù"/>
+            <when state="ogonek/dot/stroke" output="Ų"/>
         </action>
         <action id="ß">
             <when state="none" output="ß"/>
             <when state="Math" output="σ"/>
+            <when state="acute" output="ś"/>
+            <when state="circumflex" output="ŝ"/>
+        </action>
+        <action id="ß 1">
+            <when state="none" output="ß"/>
+            <when state="Math" output="σ"/>
+            <when state="acute" output="ś"/>
+            <when state="circumflex" output="ŝ"/>
         </action>
         <action id="ä">
             <when state="none" output="ä"/>
             <when state="Math" output="α"/>
+            <when state="acute" output="á"/>
+            <when state="circumflex" output="â"/>
+            <when state="ogonek/dot/stroke" output="ą"/>
+        </action>
+        <action id="ä 1">
+            <when state="none" output="ä"/>
+            <when state="Math" output="α"/>
+            <when state="acute" output="á"/>
+            <when state="circumflex" output="â"/>
+            <when state="grave" output="à"/>
+            <when state="ogonek/dot/stroke" output="ą"/>
         </action>
         <action id="ö">
             <when state="none" output="ö"/>
             <when state="Math" output="ο"/>
+            <when state="acute" output="ó"/>
+            <when state="circumflex" output="ô"/>
+            <when state="ogonek/dot/stroke" output="ǫ"/>
+        </action>
+        <action id="ö 1">
+            <when state="none" output="ö"/>
+            <when state="Math" output="ο"/>
+            <when state="acute" output="ó"/>
+            <when state="circumflex" output="ô"/>
+            <when state="grave" output="ò"/>
+            <when state="ogonek/dot/stroke" output="ǫ"/>
         </action>
         <action id="ü">
             <when state="none" output="ü"/>
             <when state="Math" output="ψ"/>
+            <when state="acute" output="ú"/>
+            <when state="circumflex" output="û"/>
+            <when state="ogonek/dot/stroke" output="ų"/>
+        </action>
+        <action id="ü 1">
+            <when state="none" output="ü"/>
+            <when state="Math" output="ψ"/>
+            <when state="acute" output="ú"/>
+            <when state="circumflex" output="û"/>
+            <when state="grave" output="ù"/>
+            <when state="ogonek/dot/stroke" output="ų"/>
+        </action>
+        <action id="˛">
+            <when state="none" next="ogonek/dot/stroke"/>
+        </action>
+        <action id="˛ 1">
+            <when state="none" next="ogonek/dot/stroke"/>
+        </action>
+        <action id="€">
+            <when state="none" output="!"/>
+            <when state="Math" output="⊥"/>
         </action>
         <action id="☁️">
-            <when state="none" output="☁️"/>
+            <when state="none" output="&#x1F60E;"/>
             <when state="Math" output="Γ"/>
+            <when state="acute" output="Ć"/>
+            <when state="circumflex" output="Ĉ"/>
         </action>
         <action id="☔️">
             <when state="none" output="&#x1F923;"/>
             <when state="Math" output="ρ"/>
+            <when state="acute" output="ŕ"/>
+        </action>
+        <action id="☔️ 1">
+            <when state="none" output="&#x1F923;"/>
+            <when state="Math" output="ρ"/>
+            <when state="acute" output="ŕ"/>
         </action>
         <action id="☺️">
             <when state="none" output="☺️"/>
             <when state="Math" output="Φ"/>
+            <when state="acute" output="Ǵ"/>
+            <when state="circumflex" output="Ĝ"/>
         </action>
         <action id="✊&#x1F3FC;">
-            <when state="none" output="✊&#x1F3FC;"/>
+            <when state="none" output="✅"/>
             <when state="Math" output="Ω"/>
         </action>
         <action id="✌&#x1F3FC;">
             <when state="none" output="✌&#x1F3FC;"/>
             <when state="Math" output="τ"/>
         </action>
+        <action id="✌&#x1F3FC; 1">
+            <when state="none" output="✌&#x1F3FC;"/>
+            <when state="Math" output="τ"/>
+        </action>
         <action id="❤️">
             <when state="none" output="❤️"/>
             <when state="Math" output="Η"/>
+            <when state="circumflex" output="Ĥ"/>
         </action>
     </actions>
     <terminators>
         <when state="Math" output=""/>
+        <when state="acute" output="´"/>
+        <when state="circumflex" output="^"/>
+        <when state="grave" output="`"/>
+        <when state="ogonek/dot/stroke" output="˛"/>
     </terminators>
 </keyboard>
