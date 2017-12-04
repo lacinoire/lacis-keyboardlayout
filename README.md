@@ -11,4 +11,4 @@ Deadkey next to the Backspace: used to access greek letters, math symbols & arro
 
 Further Dead keys for accents and polish special characters.
 
-![Mapping picture](/LacisKeyboard.keylayout.pdf?raw=true)
+![Mapping picture](/LacisKeyboard.keylayout.pdf)
