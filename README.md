@@ -7,4 +7,8 @@ Convenient layout of special characters + numbers for programming (easy access t
 
 German Umlauts in Alt-Space, rest of Alt-&Shift-Alt Space filled with Unicode emoji (trying to place them at letters which are useful for memonics.
 
-Deadkey next to the Backspace: used to access greek letters & math symbols.
+Deadkey next to the Backspace: used to access greek letters, math symbols & arrows.
+
+Further Dead keys for accents and polish special characters.
+
+[Mapping picture](LacisKeyboard.keylayout.pdf)
