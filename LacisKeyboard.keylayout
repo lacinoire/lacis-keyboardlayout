@@ -1,8 +1,8 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 2.2.8 on 2015-10-05 at 19:28 (MESZ)-->
-<!--Last edited by Ukelele version 3.3.0.249 on 2019-08-02 at 09:17 (CEST)-->
-<keyboard group="126" id="-20621" name="LacisKeyboard 2.11" maxout="2">
+<!--Last edited by Ukelele version 3.3.0.249 on 2020-12-18 at 08:31 (CET)-->
+<keyboard group="126" id="-20621" name="LacisKeyboard 2.12" maxout="2">
     <layouts>
         <layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
         <layout first="18" last="18" mapSet="JIS" modifiers="Modifiers"/>
@@ -255,14 +255,14 @@
             <key code="40" action="&#x00FC; 1"/>
             <key code="41" action="&#x1F525; 1"/>
             <key code="42" output="&#x1F625;"/>
-            <key code="43" output="&#x1F379;"/>
+            <key code="43" output="&#x2615;&#xFE0F;"/>
             <key code="44" output="&#x1F635;"/>
             <key code="45" action="&#x1F499; 1"/>
             <key code="46" action="&#x1F630; 1"/>
-            <key code="47" output="&#x1F611;"/>
+            <key code="47" output="&#x2014;"/>
             <key code="48" output="&#x0009;"/>
             <key code="49" action="  2"/>
-            <key code="50" output="&#x1F495;"/>
+            <key code="50" output="&#x1F615;"/>
             <key code="51" output="&#x0008;"/>
             <key code="53" output="&#x001B;"/>
             <key code="64" output="&#x0010;"/>
@@ -308,7 +308,7 @@
             <key code="3" action="&#x1F339;"/>
             <key code="4" action="&#x1F62B;"/>
             <key code="5" action="&#x1F4AA;&#x1F3FC;"/>
-            <key code="6" output="&#x1F36A;"/>
+            <key code="6" output="&#x1F62C;"/>
             <key code="7" action="&#x1F608;"/>
             <key code="8" action="&#x263A;&#xFE0F;"/>
             <key code="9" action="&#x1F61B;"/>
@@ -345,7 +345,7 @@
             <key code="40" action="&#x00DC;"/>
             <key code="41" action="&#x270A;&#x1F3FC;"/>
             <key code="42" output="&#x1F630;"/>
-            <key code="43" output="&#x2615;&#xFE0F;"/>
+            <key code="43" output="&#x1F379;"/>
             <key code="44" output="&#x1F632;"/>
             <key code="45" action="&#x2764;&#xFE0F;"/>
             <key code="46" action="&#x1F628;"/>
@@ -1184,7 +1184,7 @@
         </action>
         <action id="l">
             <when state="none" output="l"/>
-            <when state="Math" output="&#x261E;"/>
+            <when state="Math" output="&#x1F449;&#x1F3FC;"/>
             <when state="acute" output="&#x013A;"/>
             <when state="ogonek/dot/stroke" output="&#x0142;"/>
         </action>
@@ -1224,7 +1224,7 @@
         </action>
         <action id="o 3">
             <when state="none" output="o"/>
-            <when state="Math" output="&#x261C;"/>
+            <when state="Math" output="&#x1F448;&#x1F3FC;"/>
             <when state="acute" output="&#x00F3;"/>
             <when state="circumflex" output="&#x00F4;"/>
             <when state="grave" output="&#x00F2;"/>
@@ -1244,7 +1244,7 @@
         </action>
         <action id="p 3">
             <when state="none" output="p"/>
-            <when state="Math" output="&#x261D;&#xFE0E;"/>
+            <when state="Math" output="&#x1F446;&#x1F3FC;"/>
         </action>
         <action id="q">
             <when state="none" output="q"/>
@@ -1327,7 +1327,7 @@
         </action>
         <action id="u 3">
             <when state="none" output="u"/>
-            <when state="Math" output="&#x261F;"/>
+            <when state="Math" output="&#x1F447;&#x1F3FC;"/>
             <when state="acute" output="&#x00FA;"/>
             <when state="circumflex" output="&#x00FB;"/>
             <when state="grave" output="&#x00F9;"/>
@@ -1534,7 +1534,7 @@
             <when state="circumflex" output="&#x011C;"/>
         </action>
         <action id="&#x270A;&#x1F3FC;">
-            <when state="none" output="&#x2614;&#xFE0F;"/>
+            <when state="none" output="&#x1F389;"/>
             <when state="Math" output="&#x03A9;"/>
         </action>
         <action id="&#x270C;&#x1F3FC;">
@@ -1763,7 +1763,7 @@
             <when state="circumflex" output="&#x0135;"/>
         </action>
         <action id="&#x1F628;">
-            <when state="none" output="&#x1F92B;"/>
+            <when state="none" output="&#x1F64F;&#x1F3FC;"/>
             <when state="Math" output="&#x0392;"/>
         </action>
         <action id="&#x1F62A;">
