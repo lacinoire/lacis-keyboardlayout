@@ -347,7 +347,7 @@
             <key code="42" output="&#x1F630;"/>
             <key code="43" output="&#x1F379;"/>
             <key code="44" output="&#x1F632;"/>
-            <key code="45" action="&#x2764;&#xFE0F;"/>
+            <key code="45" action="&#x1F44F;&#x1F3FC;"/>
             <key code="46" action="&#x1F628;"/>
             <key code="47" output="&#x1F610;"/>
             <key code="48" output="&#x0009;"/>
@@ -1545,8 +1545,8 @@
             <when state="none" output="&#x270C;&#x1F3FC;"/>
             <when state="Math" output="&#x03C4;"/>
         </action>
-        <action id="&#x2764;&#xFE0F;">
-            <when state="none" output="&#x2764;&#xFE0F;"/>
+        <action id="&#x1F44F;&#x1F3FC;">
+            <when state="none" output="&#x1F44F;&#x1F3FC;"/>
             <when state="Math" output="&#x0397;"/>
             <when state="circumflex" output="&#x0124;"/>
         </action>
